@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Great+Vibes&family=Jost:wght@100&family=Poppins:wght@300&display=swap');
+:root {
+
+  --bgColor :rgba(82, 80, 80, 0.3);
+  --primary-gradiant:linear-gradient(white, white), 
+  linear-gradient(to right top, #cca8ef, #baa2e5, #a99cda, #9a96cf, #8b8fc3) !important;
+  --text-gradiant: linear-gradient(to right top, #cca8ef, #baa2e5, #a99cda, #9a96cf, #8b8fc3) !important;
+}
+body {
+  height: 100vh;
+  --main-color : #cdd1ec;
+  --text-color: #595c6c;
+  --title-color:rgb(64, 72, 119);
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-2a: 0.7rem;
+  --size-3: 0.85rem;
+  --size-4: 0.95rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-8: 2rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-40: 10rem;
+  
+  margin: 0;
+  font-family: 'Cookie', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-color);
+
+}
+
+* {
+ box-sizing: border-box;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+};
+

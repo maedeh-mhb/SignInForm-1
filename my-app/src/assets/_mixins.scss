@@ -1,0 +1,30 @@
+@mixin title-text {
+   font-size: var(--size-8);
+   color:var(--title-color);
+   font-weight: bold;
+  };
+
+  @mixin input-border-focused {
+   border: double 3px transparent !important;
+   background-image: var(--primary-gradiant);
+  background-origin: border-box !important;
+  background-clip: padding-box, border-box !important;
+  }
+
+  @mixin gradiant-text {
+   background-image:var(--text-gradiant);
+   background-size: 100%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   -moz-text-fill-color: transparent;
+   font-weight: bolder;
+   -moz-text-fill-color: transparent;
+  }
+
+  @mixin hover-grdaiant {
+   
+   background: #471B48;
+   background: -webkit-linear-gradient(top left, #471B48, #6F3E8E);
+   background: -moz-linear-gradient(top left, #471B48, #6F3E8E);
+   background: linear-gradient(to bottom right, #471B48, #6F3E8E);
+  }

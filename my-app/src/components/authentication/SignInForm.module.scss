@@ -1,0 +1,50 @@
+@import '../../assets/mixins';
+form {
+    margin: 0 auto
+   }
+
+.form-header {
+    @include title-text
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    label {
+        color:var(--text-color);
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size: var(--size-3);
+    }
+}
+.remember-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--size-2a);
+    :first-child {
+        color: var(--title-color);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    :nth-child(2) {
+        cursor: pointer;
+       @include gradiant-text
+    }
+}
+.radio-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.login-buttons {
+    margin-top:20px;
+}
+
+@media only screen and (min-width: 1140px) {
+    form {
+     width: 70%;
+    }
+ }
